@@ -7,12 +7,22 @@ body {
 
 .night-sky {
     background-color: #3E3D78;
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
     height: 300px;
     width: 100vw;
     margin: 0;
+}
+
+.lake {
+    background-color: #072060;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 400px;
+    width: 100vw;
+    margin-top: 30%;
 }
 
 #intro-name{
@@ -43,7 +53,7 @@ body {
     height: 100px;
     width: 100px;
     position: absolute;
-    left: 90%;
+    left: 53%;
     top: 25%;
     transform: translate(-50%,-50%);
     box-shadow: -15px 15px 0 5px #eeff86;
